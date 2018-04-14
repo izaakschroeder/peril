@@ -11,6 +11,7 @@ const defaultRun: GitHubRunSettings = {
     env_vars: [],
     ignored_repos: [],
     modules: [],
+    ignore_missing: false,
   },
   isRepoEvent: true,
   isTriggeredByUser: true,
@@ -25,6 +26,7 @@ const defaultSettings = {
   env_vars: [],
   ignored_repos: [],
   modules: [],
+  ignore_missing: false,
 }
 
 // A function to override defaults

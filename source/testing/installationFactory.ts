@@ -9,6 +9,7 @@ const emptyInstallation: GitHubInstallation = {
     env_vars: [],
     ignored_repos: [],
     modules: [],
+    ignore_missing: false,
   },
   tasks: {},
 }

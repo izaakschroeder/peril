@@ -14,6 +14,7 @@ const mockInstallationSettings: GitHubInstallation = {
     env_vars: [],
     ignored_repos: [body.pull_request.head.repo.full_name],
     modules: [],
+    ignore_missing: false,
   },
   tasks: {},
 }

@@ -19,6 +19,7 @@ const emptySettings = {
   env_vars: [],
   ignored_repos: [],
   modules: [],
+  ignore_missing: false,
 }
 
 const installationSettings = {
@@ -126,6 +127,7 @@ it("exposes specific process env vars via the peril object ", async () => {
     env_vars: ["TEST_ENV", "NON_EXISTANT"],
     ignored_repos: [],
     modules: [],
+    ignore_missing: false,
   }
 
   const fakeProcess = {
@@ -142,6 +144,7 @@ it("allows passing through Peril DSL attributes ", async () => {
     env_vars: ["TEST_ENV", "NON_EXISTANT"],
     ignored_repos: [],
     modules: [],
+    ignore_missing: false,
   }
 
   const fakeProcess = {

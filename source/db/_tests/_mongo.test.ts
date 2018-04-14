@@ -9,7 +9,7 @@ describe("gh -> mongo", () => {
       repos: {},
       rules: {},
       scheduler: {},
-      settings: { env_vars: [], ignored_repos: [], modules: [] },
+      settings: { env_vars: [], ignored_repos: [], modules: [], ignore_missing: false },
       tasks: {},
     })
   })

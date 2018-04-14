@@ -17,6 +17,7 @@ export async function createInstallation(installationJSON: Installation, _: expr
       env_vars: [],
       ignored_repos: [],
       modules: [],
+      ignore_missing: false,
     },
     tasks: {},
   }

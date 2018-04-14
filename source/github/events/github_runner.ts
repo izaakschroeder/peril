@@ -303,6 +303,9 @@ ${JSON.stringify(stateForErrorHandling, null, "  ")}
   }
 
   if (headDangerfile === "") {
+    if (settings.installationSettings.ignore_missing) {
+      return null
+    }
     const actualBranch = branch ? branch : "master"
     const message = `Could not find Dangerfile at <code>${
       run.dangerfilePath

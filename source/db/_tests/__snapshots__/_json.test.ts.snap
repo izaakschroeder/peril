@@ -17,6 +17,7 @@ Object {
   "scheduler": Object {},
   "settings": Object {
     "env_vars": Array [],
+    "ignore_missing": false,
     "ignored_repos": Array [],
     "modules": Array [],
   },

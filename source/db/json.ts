@@ -74,6 +74,7 @@ const jsonDatabase = (dangerFilePath: DangerfileReferenceString): DatabaseAdapto
           env_vars: (parsedOrg.settings && parsedOrg.settings.env_vars) || [],
           ignored_repos: (parsedOrg.settings && parsedOrg.settings.ignored_repos) || [],
           modules: (parsedOrg.settings && parsedOrg.settings.modules) || [],
+          ignore_missing: (parsedOrg.settings && parsedOrg.settings.ignore_missing) || false,
         },
       }
     }

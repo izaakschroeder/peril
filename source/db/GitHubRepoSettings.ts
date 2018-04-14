@@ -13,4 +13,9 @@ export interface GitHubInstallationSettings {
    * turn on Peril for an entire org, and just make the occasional edge case.
    */
   ignored_repos: string[]
+  /**
+   * Set to true to ignore missing Dangerfiles. This can be useful when you have an org-wide
+   * Dangerfile to run in each repo that is _opt in_.
+   */
+  ignore_missing: boolean
 }
